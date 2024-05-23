@@ -20,7 +20,8 @@ a = a - b
 else:
 b = b - a
 
-print (a)
+gcd = a - b
+print("Наибольший общий делитель:", gcd)
 
 Оформление кода в виде функции
 
@@ -30,4 +31,6 @@ if a > b:
 a = a - b
 else:
 b = b - a
-print (a)
+
+gcd = a - b
+print("Наибольший общий делитель:", gcd)
